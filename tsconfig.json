@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom"],
+    "types": ["reflect-metadata"],
+    "noEmitOnError": true,
+    "moduleResolution": "node",
+    //"declaration": true,
+    //"emitDeclarationOnly": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*", "config/**/*"]
+}
